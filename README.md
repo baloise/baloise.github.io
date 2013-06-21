@@ -1,4 +1,4 @@
 baloise.github.io
 =================
 
-github pages
+[github pages] (http://baloise.github.io/)
