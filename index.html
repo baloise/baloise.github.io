@@ -1,7 +1,78 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- InstanceBegin template="/Templates/3 Spalten.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
+<title>Baloise Open Source</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="index_files/positions.css" rel="stylesheet" type="text/css" />
+<link href="index_files/layout.css" rel="stylesheet" type="text/css" />
+<link href="index_files/style.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 </head>
-<body>
-Coming soon
+<body onload="">
+	<script src="index_files/script.js"></script>
+	<script>
+	window.onload = function() {
+		console.log('fertig')
+		loadRepos()
+		loadMembers()
+	}
+	</script>
+	<div id="container">
+		<div id="header_wrapper">
+			<div id="logo">
+				<a href="https://www.baloise.com/"><img
+					src="index_files/logo_baloise.gif" style="border-style: none"
+					alt="Logo"></img></a>
+			</div>
+			<div id="application" class="app_title">Baloise Open Source</div>
+		</div>
+		<div id="content_wrapper">
+			<div id="block1"></div>
+			<div id="block2">
+				<div class="page_title">Mission Statement</div>
+				<p>
+					At Baloise, we foster creativity and encourage every team member to
+					invest in improving her personal work environment.<br /> In the
+					context of Gold Cards, we develop code to enhance our daily
+					business, or we simply explore new languages, tools, or concepts
+					out of curiosity.<br /> Either way, we want to share this code
+					with you.<br />
+				</p>
+				<p>
+					All software here was written as a personal effort of the
+					contributors at code camps, hacking sessions, dojos or using gold
+					cards.<br /> Looking for real world productivity tools? Want to
+					contribute? This is the place for you!
+				</p>
+
+				<div class="page_title">The Baloise Scope</div>
+				<p>
+					Most of us work at Baloise - we have common challenges.<br /> This
+					website is also a dictonary for internal use, so we know what
+					happens at the other end of the floor <img
+						src="http://emoticony.leestone.co.uk/emoticons_standard/wink.png"
+						alt=";-)" /><br /> Yes of course, you can use and contribute
+					even if you are not working at the Baloise!<br /> Last but not
+					least Baloise is sponsoring part of the time invested in the
+					projects.<br />
+				</p>
+
+				<div class="page_title">Projects</div>
+				<div id="repos"></div>
+				<div class="page_title">Who we are</div>
+				<div id="members"></div>
+
+				<br /> <br />
+				<div id="disclaimer">
+					&copy;&nbsp;2013 <a href="https://www.baloise.com/">B&acirc;loise
+						Group<a />
+				</div>
+			</div>
+			<div id="block3"></div>
+		</div>
+	</div>
+
+
 </body>
 </html>

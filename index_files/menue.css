@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************
+ |         |
+ *********************************/
+.LokNav,
+.LokNav ul,
+.LokNav li {
+/* Schriftgrösse für Menue */
+	font-size: 11px;  
+}
+
+.LokNav {
+	border-top: 1px solid #DDDDDD;	
+}
+
+.menueDunkel,
+.LokNav a, 
+.LokNav span {
+/* Linien Höhe für Menueelemente */
+	height: 25px;
+	line-height: 25px;
+}
+
+.LokNav, .LokNav ul, .LokNav li {
+/* Einführungstext unter Titel */
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 192px;
+}
+
+
+.LokNav a, 
+.LokNav span, 
+.LokNav a:visited { 
+/* Alle A Tags innerhalb des Menüs */  
+    color: #333333;
+	display: block;  
+	text-decoration: none;
+	width: auto;
+}
+
+/*********************************
+ |  Border / Farben              |
+ *********************************/
+
+.LokNav a, 
+.LokNav span, 
+.LokNav a:visited { 
+/* Alle A Tags innerhalb des Menüs */  
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+
+/*********************************
+ |  Menu Stufen                  |
+ *********************************/
+
+.LokNav li a, .LokNav li span{
+/* Definition für die 1. Stufe */
+    background-image: url(../images/nav_bg.png);  
+    padding-left: 8px;   
+}
+
+.LokNav li li a, .LokNav li li span{
+/* Definition für die 2. Stufe */
+		background-image: none;
+		background-color: white;
+    padding-left: 20px;
+		border-bottom: 1px dotted #DDDDDD;
+}
+
+
+.LokNav li li li a, .LokNav li li li span {
+/* Definition für die 3. Stufe */
+  padding-left: 32px;
+}
+
+
+ 
+.LokNav a:hover {
+/* Rollovereffekt innerhalb des Menues */
+	color: #008AC9;
+  text-decoration: none;
+}
+
+.LokNav a:selected {
+/* Rollovereffekt innerhalb des Menues */
+	color: #008AC9;
+  font-weight: bold;
+	text-decoration: none;
+}
+
+.LokNav a.MenuSelected,
+.LokNav span.MenuSelected {
+/* Active Effek */
+/* Wird für Framework benötigt */
+	color: #008AC9;
+  font-weight: bold;
+	text-decoration: none;
+}
+
+.LokNav a.MenuNormal{
+/* Normaler Menüinhalt */
+/* Wird für Framework benötigt */
+}
+
+.LokNav span.MenuDisabled {
+/* Inaktive Menuelemente */
+/* Wird für Framework benötigt */
+/*
+	color: rgb( 153 , 153 , 153 );
+*/
+}

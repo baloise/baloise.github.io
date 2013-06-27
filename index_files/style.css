@@ -1,0 +1,57 @@
+.contributor img {
+	border: 0 none;
+	border-radius: 3px 3px 3px 3px;
+	display: block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #eee;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+.contributor img:hover {
+	box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.8);
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(160, 160, 160, 0.8);
+}
+
+.contributor a {
+	position: relative;
+	height: 82px;
+	display: block;
+}
+
+.contributor {
+	display: inline-block;
+	margin: 5px;
+}
+
+.contributor-name {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	bottom: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	color: #FFFFFF;
+	font-size: 12px;
+	left: 0;
+	margin: 2px;
+	padding: 0 4px;
+	position: absolute;
+	width: 70px;
+}
+.repos td {
+	padding-left: 44px;
+}
+p {
+	padding-left: 44px;
+	/*
+	text-align: justify;
+	text-justify: inter-word;
+	*/
+}
+.repo_name {
+	font-weight:bold;
+}

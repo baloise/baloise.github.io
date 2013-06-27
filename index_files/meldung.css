@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.feedforward,
+.success,
+.alert,
+.error {
+  border: 1px #DDDDDD solid;
+  padding: 14px 24px 14px 14px;
+	display: block;
+}
+
+
+.feedforward {
+	color: #003399;
+	background-color: #EAF8FD; 
+}
+
+.success {
+	color: #000000;
+	background-color: #EBFFDE; 
+	padding-left: 51px;
+	background-image:url(../images/info_confirm.png);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+}
+
+.alert {
+	color: #000000;
+	background-color: #FFEBCC; 
+	padding-left: 51px;
+	background-image:url(../images/info_alert.png);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+}
+
+.error {
+	color: #EE0000;
+	background-color: #FFEEEE; 
+	padding-left: 51px;
+	background-image:url(../images/info_error.png);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+}
