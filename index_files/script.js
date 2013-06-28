@@ -6,9 +6,9 @@ function loadRepos(data) {
 				
 				$.each(data, function(index, repo) {
 					if (repo.name != 'baloise.github.io') {
-						items.push("<li class='repo'><div class='repo-name'><h3 class='no-toc'><a href='" + repo.html_url + "'>"
-								+ repo.name + "</a></h3><div class='repo-desc'>" + repo.description + "</div></div>"
-								+ '</li>')
+						items.push("<li class='repo'><a href='" + repo.html_url + "'><div class='repo-name'><h3 class='no-toc'>"
+								+ repo.name + "</h3><div class='repo-desc'>" + repo.description + "</div></div>"
+								+ '</a></li>')
 					}
 				});
 				
