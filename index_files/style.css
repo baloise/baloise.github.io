@@ -52,6 +52,63 @@ p {
 	text-justify: inter-word;
 	*/
 }
-.repo_name {
-	font-weight:bold;
+
+.menuContent {
+	display: none;
 }
+
+.repos {
+    padding-left: 0;
+    list-style: none;
+    border-top: 1px solid #E5E6F1;
+    margin: 0 -13px;
+}
+.repo {
+    margin: 1px 0;
+    padding: 0 13px 6px;
+    color: #30418C;
+    background: #F9F9FC;
+    
+    border-bottom: 1px solid #E5E6F1;
+}
+.repo:hover {
+    background: #F1F1F4;
+}
+.repo-name h3 {
+    margin: 6px 0 0 0;
+}
+.repo-stats {
+    margin-top: 6px;
+    background: url(../assets/app/arrow.gif) right center no-repeat;
+}
+.repo-stats ul {
+    list-style: none;
+    padding-left: 0;
+    height: 47px;
+    line-height: 47px;
+}
+.repo-stats b {
+    display: block;
+}
+.repo-stats span {
+    display: block;
+    font-size: 11px;
+    color: #B6BCD7;
+    color: rgba(48, 65, 140, 0.40);
+}
+.repo-stats .repo-watchers,
+.repo-stats .repo-forks {
+    text-align: center;
+    line-height: 11px;
+    margin-top: 15px;
+}
+.repo-desc {
+    margin: 10px 20px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #B6BCD7;
+    color: rgba(48, 65, 140, 0.40);
+}
+
+
