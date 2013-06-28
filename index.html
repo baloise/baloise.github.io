@@ -5,16 +5,18 @@
 <title>Baloise Open Source</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="index_files/positions.css" rel="stylesheet" type="text/css" />
+<link href="index_files/menue.css" rel="stylesheet" type="text/css" />
 <link href="index_files/layout.css" rel="stylesheet" type="text/css" />
 <link href="index_files/style.css" rel="stylesheet" type="text/css" />
 <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 </head>
 <body onload="">
-	<script src="index_files/script.js"></script>
+	<script type="text/javascript" src="index_files/script.js"></script>
+	<script type="text/javascript" src="members.json"></script>
+	<script type="text/javascript" src="repos.json"></script>
 	<script>
 	window.onload = function() {
-		loadRepos()
-		loadMembers()
+		initNavigation();
 	}
 	</script>
 	<div id="container">
@@ -27,41 +29,76 @@
 			<div id="application" class="app_title">Baloise Open Source</div>
 		</div>
 		<div id="content_wrapper">
-			<div id="block1"></div>
+			<div id="block1">
+				<ul class="LokNav">
+				  <li id="item_0" class="navSelector" value="0">
+					<a href="#" id="link_0" class="MenuSelected" name="">Mission Statement</a>
+				  </li>
+				  <li id="item_1" class="navSelector" value="1">
+					<a href="#" id="link_1" class="" name="">The Baloise Scope</a>
+				  </li>
+				  <li id="item_2" class="navSelector" value="2">
+					<a href="#" id="link_2" class="" name="">Projects</a>
+				  </li>
+				  <li id="item_3" class="navSelector" value="3">
+					<a href="#" id="link_3" class="" name="">Who we are</a>
+				  </li>
+			</ul>
+			</div>
 			<div id="block2">
-				<div class="page_title">Mission Statement</div>
-				<p>
-					At Baloise, we foster creativity and encourage every team member to
-					invest in improving her personal work environment.<br /> In the
-					context of Gold Cards, we develop code to enhance our daily
-					business, or we simply explore new languages, tools, or concepts
-					out of curiosity.<br /> Either way, we want to share this code
-					with you.<br />
-				</p>
-				<p>
-					All software here was written as a personal effort of the
-					contributors at code camps, hacking sessions, dojos or using gold
-					cards.<br /> Looking for real world productivity tools? Want to
-					contribute? This is the place for you!
-				</p>
+				<div id="menu_0" class="menuContent">
+					<div id="splashbox">
+						<h1>Mission Statement</h1>
+						<div>
+							At Baloise, we foster creativity and encourage every team member to
+							invest in improving her personal work environment.<br /> In the
+							context of Gold Cards, we develop code to enhance our daily
+							business, or we simply explore new languages, tools, or concepts
+							out of curiosity.<br /> Either way, we want to share this code
+							with you.<br />
+						</div>
+						<br/>
+						<div>
+							All software here was written as a personal effort of the
+							contributors at code camps, hacking sessions, dojos or using gold
+							cards.<br /> Looking for real world productivity tools? Want to
+							contribute? This is the place for you!
+						</div>
+					</div>
+				</div>
+				<div id="menu_1" class="menuContent">
+					<div id="splashbox">
+						<h1>The Baloise Scope</h1>
+						<div>
+							Most of us work at Baloise - we have common challenges.<br /> This
+							website is also a dictonary for internal use, so we know what
+							happens at the other end of the floor <img
+								src="http://emoticony.leestone.co.uk/emoticons_standard/wink.png"
+								alt=";-)" /><br /> Yes of course, you can use and contribute
+							even if you are not working at the Baloise!<br /> Last but not
+							least Baloise is sponsoring part of the time invested in the
+							projects.<br />
+						</div>
+					</div>
+				</div>
 
-				<div class="page_title">The Baloise Scope</div>
-				<p>
-					Most of us work at Baloise - we have common challenges.<br /> This
-					website is also a dictonary for internal use, so we know what
-					happens at the other end of the floor <img
-						src="http://emoticony.leestone.co.uk/emoticons_standard/wink.png"
-						alt=";-)" /><br /> Yes of course, you can use and contribute
-					even if you are not working at the Baloise!<br /> Last but not
-					least Baloise is sponsoring part of the time invested in the
-					projects.<br />
-				</p>
-
-				<div class="page_title">Projects</div>
-				<div id="repos"></div>
-				<div class="page_title">Who we are</div>
-				<div id="members"></div>
-
+				<div id="menu_2" class="menuContent">
+					<div style="padding:11px;padding-top:0px;">
+						<div  class="page_title">Projects</div>
+						<br/>
+						
+						<div id="repos"></div>
+					</div>
+				</div>
+				
+				<div id="menu_3" class="menuContent">
+					<div style="padding:11px;padding-top:0px;">
+						<div class="page_title">Who we are</div>
+						<br/>
+						
+						<div id="members"></div>
+					</div>
+				</div>
 				<br /> <br />
 				<div id="disclaimer">
 					&copy;&nbsp;2013 <a href="https://www.baloise.com/">B&acirc;loise
