@@ -1,0 +1,13 @@
+--2013-06-28 16:05:03--  https://api.github.com/orgs/baloise/public_members
+Auflösen des Hostnamen »webproxy«.... 10.64.2.48
+Verbindungsaufbau zu webproxy|10.64.2.48|:3128... verbunden.
+WARNUNG: Kann das Zertifikat von »api.github.com« nicht prüfen, ausgestellt von »/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance CA-3«:.
+  Die Authorität des Ausstellers des Zertifikates kann lokal nicht geprüft werden.
+Proxy Anforderung gesendet, warte auf Antwort... 200 OK
+Länge: 5440 (5.3K) [application/json]
+In »public_members« speichern.
+
+     0K .....                                                 100% 1.86G=0s
+
+2013-06-28 16:05:05 (1.86 GB/s) - »public_members« gespeichert [5440/5440]
+
