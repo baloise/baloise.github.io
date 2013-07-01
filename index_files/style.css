@@ -111,4 +111,8 @@ p {
     color: #30418C;
 }
 
+.navSelector a {
+	cursor: pointer;
+}
+
 

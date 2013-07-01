@@ -38,23 +38,48 @@ function loadMembers(data) {
 		}).appendTo('#members')
 }
 
+function getParameterByName(name, url) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[#?&]" + name + "=([^&#]*)");
+    var results = regex.exec(url);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+window.onpopstate = function(e){
+	doNavigation(location.href, false);
+};
+
+function doNavigation(url, pushHistory) {
+	if(pushHistory == null) {
+		pushHistory = true;
+	}
+	var navigationTarget = getParameterByName("navigationTarget", url);
+	
+	if (navigationTarget == "") {
+		navigationTarget = "mission";
+	} 
+	
+	
+	$.each($('.navSelector a'), function (index , member) {
+		if ($(member).attr('navigationTarget') != null && $(member).attr('navigationTarget') == navigationTarget) {
+			$('.navSelector').children().removeClass('MenuSelected');
+			$(member).addClass('MenuSelected'); 
+			$('.menuContent').hide();
+			$('#menu_' + $(member).parent().attr('value')).show();
+			if (pushHistory) {
+				window.history.pushState("","", location.host + location.pathname + "?navigationTarget=" + navigationTarget);
+			}
+		}
+	});
+}
+
 function initNavigation() {
 	$('#menu_0').show();
-	$(".navSelector").bind('click', function(e) {
-		$('.navSelector').children().removeClass('MenuSelected');
-		$(this).children().addClass('MenuSelected');
-		$('.menuContent').hide();
-		
-		$('#menu_' + $(this).attr('value')).show();
+	$(".navSelector").bind('click', function(e) {	
+		var navigationTarget = $(this).children().first().attr('navigationTarget');
+		doNavigation(location.host + location.pathname + "?navigationTarget=" + navigationTarget);
 	});
-	
-
-			loadRepos(repos);
-		
-	
-	
-	
-		
-			loadMembers(members);
-
+	loadRepos(repos);
+	loadMembers(members);
+	doNavigation(location.href);
 }
