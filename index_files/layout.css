@@ -74,7 +74,7 @@ a {
 #splashbox {
   background-image: url(../images/home_bg.png);
 	background-repeat: no-repeat;
-	background-color: cyan;
+	background-color: #003399;
 	color: white;
 	
 	max-height: 250px;
