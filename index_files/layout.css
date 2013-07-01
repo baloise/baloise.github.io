@@ -71,6 +71,11 @@ a {
 	padding: 7px;
 }
 
+#nosplashbox {
+	padding:11px;
+	padding-top:0px;
+}
+
 #splashbox {
   background-image: url(../images/home_bg.png);
 	background-repeat: no-repeat;
