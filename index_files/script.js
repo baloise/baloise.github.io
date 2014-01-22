@@ -67,7 +67,7 @@ function doNavigation(url, pushHistory) {
 			$('.menuContent').hide();
 			$('#menu_' + $(member).parent().attr('value')).show();
 			if (pushHistory) {
-				window.history.pushState("","", location.host + location.pathname + "?navigationTarget=" + navigationTarget);
+				window.history.pushState("","", location.pathname + "?navigationTarget=" + navigationTarget);
 			}
 		}
 	});
