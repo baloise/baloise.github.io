@@ -6,7 +6,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -98,7 +98,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -190,7 +190,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -282,7 +282,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -374,7 +374,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -431,14 +431,14 @@ var repos = [
     "labels_url": "https://api.github.com/repos/baloise/baloise.github.io/labels{/name}",
     "releases_url": "https://api.github.com/repos/baloise/baloise.github.io/releases{/id}",
     "created_at": "2013-06-21T08:10:23Z",
-    "updated_at": "2014-03-03T08:31:04Z",
-    "pushed_at": "2014-03-03T08:31:04Z",
+    "updated_at": "2014-03-04T08:31:09Z",
+    "pushed_at": "2014-03-04T08:31:09Z",
     "git_url": "git://github.com/baloise/baloise.github.io.git",
     "ssh_url": "git@github.com:baloise/baloise.github.io.git",
     "clone_url": "https://github.com/baloise/baloise.github.io.git",
     "svn_url": "https://github.com/baloise/baloise.github.io",
     "homepage": null,
-    "size": 476,
+    "size": 512,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "CSS",
@@ -466,7 +466,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -558,7 +558,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -650,7 +650,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -742,7 +742,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
@@ -834,7 +834,7 @@ var repos = [
     "owner": {
       "login": "baloise",
       "id": 4548858,
-      "avatar_url": "https://avatars.githubusercontent.com/u/4548858",
+      "avatar_url": "https://gravatar.com/avatar/aadf1e4c3c6b426eede5047056df092c?d=https%3A%2F%2Fidenticons.github.com%2F26f79cb8176666d6f79bfbca63c1c1ed.png&r=x",
       "gravatar_id": "aadf1e4c3c6b426eede5047056df092c",
       "url": "https://api.github.com/users/baloise",
       "html_url": "https://github.com/baloise",
