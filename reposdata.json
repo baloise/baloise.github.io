@@ -84,7 +84,6 @@
     "open_issues": 0,
     "watchers": 1,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -176,7 +175,6 @@
     "open_issues": 1,
     "watchers": 1,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -268,7 +266,6 @@
     "open_issues": 3,
     "watchers": 1,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -360,7 +357,6 @@
     "open_issues": 1,
     "watchers": 2,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -431,14 +427,14 @@
     "labels_url": "https://api.github.com/repos/baloise/baloise.github.io/labels{/name}",
     "releases_url": "https://api.github.com/repos/baloise/baloise.github.io/releases{/id}",
     "created_at": "2013-06-21T08:10:23Z",
-    "updated_at": "2014-03-10T07:31:36Z",
-    "pushed_at": "2014-03-10T07:31:35Z",
+    "updated_at": "2014-03-11T07:31:08Z",
+    "pushed_at": "2014-03-11T07:31:09Z",
     "git_url": "git://github.com/baloise/baloise.github.io.git",
     "ssh_url": "git@github.com:baloise/baloise.github.io.git",
     "clone_url": "https://github.com/baloise/baloise.github.io.git",
     "svn_url": "https://github.com/baloise/baloise.github.io",
     "homepage": null,
-    "size": 512,
+    "size": 548,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "CSS",
@@ -452,7 +448,6 @@
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -544,7 +539,6 @@
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -636,7 +630,6 @@
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -728,7 +721,6 @@
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -820,7 +812,6 @@
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
@@ -912,7 +903,6 @@
     "open_issues": 2,
     "watchers": 2,
     "default_branch": "master",
-    "master_branch": "master",
     "permissions": {
       "admin": false,
       "push": false,
