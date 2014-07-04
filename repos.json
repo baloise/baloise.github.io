@@ -428,7 +428,7 @@ var repos = [
     "releases_url": "https://api.github.com/repos/baloise/baloise.github.io/releases{/id}",
     "created_at": "2013-06-21T08:10:23Z",
     "updated_at": "2014-06-26T07:31:32Z",
-    "pushed_at": "2014-07-02T07:31:57Z",
+    "pushed_at": "2014-07-03T07:31:40Z",
     "git_url": "git://github.com/baloise/baloise.github.io.git",
     "ssh_url": "git@github.com:baloise/baloise.github.io.git",
     "clone_url": "https://github.com/baloise/baloise.github.io.git",
