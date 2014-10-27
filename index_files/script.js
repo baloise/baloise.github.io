@@ -1,4 +1,7 @@
 function loadRepos(data) {
+				if(data == null) {
+					return $.getJSON('https://api.github.com/orgs/baloise/repos?type=all', function(data) {loadRepos(data)}) 
+				}
 				data.sort(function(item1, item2) {
 					return item1.name.localeCompare(item2.name);
 				})
@@ -19,6 +22,9 @@ function loadRepos(data) {
 }
 
 function loadMembers(data) {
+		if(data == null) {
+			return $.getJSON('https://api.github.com/orgs/baloise/public_members', function(data) {loadMembers(data)}) 
+		}
 		 data.sort(function(item1, item2) {
 			return item1.login.localeCompare(item2.login);
 		})
@@ -79,7 +85,7 @@ function initNavigation() {
 		var navigationTarget = $(this).children().first().attr('navigationTarget');
 		doNavigation(location.host + location.pathname + "?navigationTarget=" + navigationTarget);
 	});
-	loadRepos(repos);
-	loadMembers(members);
+	loadRepos();
+	loadMembers();
 	doNavigation(location.href);
 }
