@@ -1,26 +1,33 @@
 requirejs([ "d3", "c3", "jquery" ], function(d3, c3, $) {
-	var months = d3.set()
-	var commitsPerAuthor = d3.map()
-	function addCommit(author, date) {
-		months.add(date);
-		var cpa = commitsPerAuthor.get(author);
+	
+	Graph = function (bindto) {
+		this.months = d3.set();
+		this.commitsPerAuthor = d3.map();
+		console.log(this.bindto ,bindto)
+		this.bindto = bindto;
+		console.log(this.bindto ,bindto)
+	}
+
+	Graph.prototype.addCommit = function(author, date){
+		this.months.add(date);
+		var cpa = this.commitsPerAuthor.get(author);
 		if (cpa == null) {
 			cpa = d3.map()
-			commitsPerAuthor.set(author, cpa);
+			this.commitsPerAuthor.set(author, cpa);
 		}
 		commitCount = cpa.get(date);
 		commitCount = commitCount == null ? 1 : commitCount + 1;
 		cpa.set(date, commitCount)
 	}
-
-	function refreshChart() {
-		var sortedMonths = months.values().sort();
+	
+	Graph.prototype.refreshChart = function(){
+		var sortedMonths = this.months.values().sort();
 		var options = {
-			bindto : '#chart',
+			bindto : this.bindto,
 			data : {
 				columns : [],
 				types : {},
-				groups : [ commitsPerAuthor.keys() ]
+				groups : [ this.commitsPerAuthor.keys() ]
 			},
 			axis : {
 				x : {
@@ -35,7 +42,7 @@ requirejs([ "d3", "c3", "jquery" ], function(d3, c3, $) {
 			}
 		}
 
-		commitsPerAuthor.forEach(function(author, commits) {
+		this.commitsPerAuthor.forEach(function(author, commits) {
 			options.data.types[author] = 'area';
 			var column = [ author ];
 			var countSum = 0;
@@ -52,6 +59,9 @@ requirejs([ "d3", "c3", "jquery" ], function(d3, c3, $) {
 		c3.generate(options);
 	}
 
+	var byAuthor = new Graph("#byAuthor");
+	var byRepo = new Graph("#byRepo");
+	
 	function load(commitUrl, repoName) {
 		$.getJSON(commitUrl, function(commits) {
 			var format = d3.time.format("%Y-%m");
@@ -60,15 +70,16 @@ requirejs([ "d3", "c3", "jquery" ], function(d3, c3, $) {
 				// var author = commit.commit.author.name;
 				var author = "unknown"
 				try {
-					author = commit.author.login;
+					if(commit.author != null)author = commit.author.login;
 				} catch (e) {
 					console.log(e)
 				}
-//				author = repoName;
 				author = author.replace(/\s+/g, " ");
-				addCommit(author, date);
+				byAuthor.addCommit(author, date);
+				byRepo.addCommit(repoName, date);
 			});
-			refreshChart();
+			byAuthor.refreshChart();
+			byRepo.refreshChart();
 		});
 	}
 	
