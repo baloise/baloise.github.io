@@ -59,33 +59,44 @@ requirejs([ "d3", "c3", "jquery" ], function(d3, c3, $) {
 		c3.generate(options);
 	}
 
-	var byAuthor = new Graph("#byAuthor");
-	var byRepo = new Graph("#byRepo");
 	
-	function load(commitUrl, repoName) {
-		$.getJSON(commitUrl, function(commits) {
-			var format = d3.time.format("%Y-%m");
-			$.each(commits, function(key, commit) {
-				var date = format(new Date(commit.commit.author.date));
-				// var author = commit.commit.author.name;
-				var author = "unknown"
-				try {
-					if(commit.author != null)author = commit.author.login;
-				} catch (e) {
-					console.log(e)
-				}
-				author = author.replace(/\s+/g, " ");
-				byAuthor.addCommit(author, date);
-				byRepo.addCommit(repoName, date);
+	function load(forWhat) {
+		var byAuthor = new Graph("#byAuthor");
+		var byRepo = new Graph("#byRepo");
+		
+		function loadRepo(commitUrl, repoName) {
+			$.getJSON(commitUrl, function(commits) {
+				var format = d3.time.format("%Y-%m");
+				$.each(commits, function(key, commit) {
+					var date = format(new Date(commit.commit.author.date));
+					// var author = commit.commit.author.name;
+					var author = "unknown"
+						try {
+							if(commit.author != null)author = commit.author.login;
+						} catch (e) {
+							console.log(e)
+						}
+						author = author.replace(/\s+/g, " ");
+						byAuthor.addCommit(author, date);
+						byRepo.addCommit(repoName, date);
+				});
+				byAuthor.refreshChart();
+				byRepo.refreshChart();
 			});
-			byAuthor.refreshChart();
-			byRepo.refreshChart();
+		}
+		
+		$.getJSON("https://api.github.com/"+forWhat+"/repos", function(repos) {
+			$.each(repos, function(key, repo) {
+				loadRepo(repo.url + "/commits", repo.name)
+			});
 		});
 	}
 	
-	$.getJSON("https://api.github.com/orgs/baloise/repos", function(repos) {
-		$.each(repos, function(key, repo) {
-			load(repo.url + "/commits", repo.name)
-		});
+	$("#forWhat").change(function() {
+		load($(this).val());
 	});
+	
+	$("#forWhat").change();
+	
+	
 });
