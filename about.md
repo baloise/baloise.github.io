@@ -1,5 +1,5 @@
 ---
-title: about us
+title: about
 ---
 
 # [Who we are](https://github.com/orgs/baloise/people)
