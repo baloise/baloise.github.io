@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # Mission Statement
 
 At Baloise, we foster creativity and encourage every team member to invest in improving her personal work environment.
