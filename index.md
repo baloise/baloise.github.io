@@ -17,7 +17,3 @@ Most of us work at Baloise - we have common challenges.
 This website is also a dictonary for internal use, so we know what happens at the other end of the floor ;-)
 Yes of course, you can use and contribute even if you are not working at the Baloise!
 Last but not least Baloise is sponsoring part of the time invested in the projects.
-
-# [Who we are](https://github.com/orgs/baloise/people)
-
-# [How to participate](https://baloise.github.io/open-source/docs/md/guides/starting.html)
