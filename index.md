@@ -2,6 +2,8 @@
 title: Home
 ---
 
+# [Open Source @ Baloise](http://baloise.github.io/open-source)
+
 # Mission Statement
 
 At Baloise, we foster creativity and encourage every team member to invest in improving her personal work environment.
