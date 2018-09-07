@@ -1,2 +1,5 @@
-# index
+---
+title: Projects
+---
 
+# index
