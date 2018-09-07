@@ -14,4 +14,4 @@ Last but not least Baloise is sponsoring part of the time invested in the projec
 
 # Who we are
 
-# How to participate
+# [How to participate](https://baloise.github.io/open-source/docs/md/guides/starting.html)
