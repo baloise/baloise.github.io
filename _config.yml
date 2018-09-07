@@ -1,2 +1,5 @@
 theme: jekyll-theme-leap-day
 title: Baloise Open Source
+
+header_pages:
+  - projects.md
