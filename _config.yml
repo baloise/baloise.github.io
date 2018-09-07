@@ -1,11 +1,13 @@
 theme: minima
 title: Baloise Group
+description: https://www.baloise.com
 
 header_pages:
   - projects.md
   - about.md
 
 email: Group.CH_Open-Source@baloise.ch
+author: @baloise/open-source
 
 twitter_username: baloise_ch
 github_username: baloise
