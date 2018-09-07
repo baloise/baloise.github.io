@@ -2,6 +2,8 @@
 title: Home
 ---
 
+![logo](https://rawgit.com/baloise/baloise-bootstrap/gh-pages/assets/img/baloise-group-logo.svg)
+
 # Mission Statement
 
 At Baloise, we foster creativity and encourage every team member to invest in improving her personal work environment.
