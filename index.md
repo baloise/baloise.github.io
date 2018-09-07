@@ -2,7 +2,7 @@
 title: Home
 ---
 
-![logo](https://rawgit.com/baloise/baloise-bootstrap/gh-pages/assets/img/baloise-group-logo-blue.svg)
+[![logo](https://rawgit.com/baloise/baloise-bootstrap/gh-pages/assets/img/baloise-group-logo-blue.svg)](https://www.baloise.com)
 
 # Mission Statement
 
