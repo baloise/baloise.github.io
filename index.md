@@ -6,8 +6,8 @@ title: Home
 
 # Mission Statement
 
-At Baloise, we foster creativity and encourage every team member to invest in improving her personal work environment.
-In the context of Gold Cards, we develop code to enhance our daily business, or we simply explore new languages, tools, or concepts out of curiosity. Either way, we want to share this code with you.
+At Baloise, [we](https://github.com/orgs/baloise/people) foster creativity and encourage every team member to invest in improving her personal work environment.
+In the context of [Gold Cards](https://github.com/baloise/goldcards/labels/goldcard), we develop code to enhance our daily business, or we simply explore new languages, tools, or concepts out of curiosity. Either way, we want to share this code with you.
 
 All software here was written as a personal effort of the contributors at code camps, hacking sessions, dojos or using gold cards. Looking for real world productivity tools? Want to contribute? This is the place for you!
 
