@@ -1,0 +1,14 @@
+= https://opendefinition.org/[Open] as Default
+
+for the following reasons we use *Open as Default* as a design principle @ Baloise.
+This applies in particular but not only to knowledge and https://www.gnu.org/philosophy/free-sw.en.html[source code].
+
+- build trust relationship with customers, partners and colleagues
+- engage people and thus https://en.wikipedia.org/wiki/Need_to_know#Problems_and_criticism[enhance productivity]
+- allow efficient collaboration and decision making inside the group 
+- increase security: prohibit lazy classification footnote:[_"it's all secret anyhow"_] and identify important assets
+- save cost of security infrastructure & life cycle as we only have to guard and review a fraction of assets
+- open up to a potential of 7.000.000.000 collaborators - how big is your company ;-)
+- benefit from for countless https://github.com/velikanov/opensource-candies[free services for open source software] and open knowledge
+
+See also https://en.wikipedia.org/wiki/Open_business[open business] vs https://en.wikipedia.org/wiki/Mushroom_management[mushroom management]  
