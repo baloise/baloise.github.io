@@ -1,14 +1,24 @@
 = https://opendefinition.org/[Open] as Default
 
 for the following reasons we use *Open as Default* as a design principle @ Baloise.
-This applies in particular but not only to knowledge and https://www.gnu.org/philosophy/free-sw.en.html[source code].
+This applies in particular but not only to knowledge and https://github.com/baloise[source code].
 
-- build trust relationship with customers, partners and colleagues
+- contribute to build a trust relationship with customers, partners and colleagues
 - engage people and thus https://en.wikipedia.org/wiki/Need_to_know#Problems_and_criticism[enhance productivity]
 - allow efficient collaboration and decision making inside the group 
 - increase security: prohibit lazy classification footnote:[_"it's all secret anyhow"_] and identify important assets
 - save cost of security infrastructure & life cycle as we only have to guard and review a fraction of assets
 - open up to a potential of 7.000.000.000 collaborators - how big is your company ;-)
 - benefit from for countless https://github.com/velikanov/opensource-candies[free services for open source software] and open knowledge
+
+== Questioins & Answers
+*Q:* Won't people be distracted and confused by all this unnecessary information? Won't absorbing it decrease productivity? +
+*A:* Yes, absorbing information has a cost. It is an investment into informed decision making, better priorisation, maximizing work not done, building up intrinsic motivation in line with organisation goals
+
+*Q:* Is Open as Default not an inherent security risk, as people might publish information that needs to be secret? Lazy Openness? +
+*A:* We all deal with the fact, that we have professional, public and private lives and we all know what to publish on the internet (social media) or not. Errors occur and are fixed when switching the professional default from secret to public. Reducing the error rate is mainly a matter of awareness. 
+
+*Q:* Aren't your business secrets the base of your unique value proposition? How can you give them away? +
+*A:* We put open and honest communication with customers, partners and colleagues above any secret algorithm that we would have invented to rule the market. And if we found the the latter - rest assured, we will deviate from our default ;-)  
 
 See also https://en.wikipedia.org/wiki/Open_business[open business] vs https://en.wikipedia.org/wiki/Mushroom_management[mushroom management]  
