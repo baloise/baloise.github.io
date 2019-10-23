@@ -1,7 +1,13 @@
 ---
-title: about
+title: about us
 ---
 
 # [Open Source @ Baloise](http://baloise.github.io/open-source)
 
-# [How to participate](https://baloise.github.io/open-source/docs/md/guides/starting.html)
+```
+Bâloise Holding AG
+Aeschengraben 21
+CH-4001 Basel
+```
+
+# [Official site notice](https://www.baloise.com/en/home/about-us/site-notice.html)
