@@ -2,4 +2,4 @@
 title: jobs
 ---
 
-{% include youtube.html id="Qf4vKzQXaQ4" %}
+{% include youtubePlayer.html id="Qf4vKzQXaQ4" %}
