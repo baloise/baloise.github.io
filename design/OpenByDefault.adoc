@@ -1,6 +1,6 @@
-= https://opendefinition.org/[Open] as Default
+= https://opendefinition.org/[Open] by Default
 
-for the following reasons we use *Open as Default* as a design principle @ Baloise.
+for the following reasons we use *Open by Default* as a design principle @ Baloise.
 This applies in particular but not only to knowledge and https://github.com/baloise[source code].
 
 - contribute to build a trust relationship with customers, partners and colleagues
@@ -15,7 +15,7 @@ This applies in particular but not only to knowledge and https://github.com/balo
 *Q:* Won't people be distracted and confused by all this unnecessary information? Won't absorbing it decrease productivity? +
 *A:* Yes, absorbing information has a cost. It is an investment into informed decision making, better priorisation, maximizing work not done, building up intrinsic motivation in line with organisation goals
 
-*Q:* Is Open as Default not an inherent security risk, as people might publish information that needs to be secret? Lazy Openness? +
+*Q:* Is Open by Default not an inherent security risk, as people might publish information that needs to be secret? Lazy Openness? +
 *A:* We all deal with the fact, that we have professional, public and private lives and we should all know what to publish on the internet (social media) or not. Classification errors always occur and we must learn to detect and fix them. Switching the professional default from secret to public may increase the error rate - reducing it is mainly a matter of awareness. Making people aware of their data sharing choices helps them in the professional and private life and is one of the important topics in our digital society.
 
 *Q:* Aren't your business secrets the base of your unique value proposition? How can you give them away? +
