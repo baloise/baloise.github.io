@@ -9,7 +9,7 @@ This applies in particular but not only to knowledge and https://github.com/balo
 - increase security: prohibit lazy classification footnote:[_"it's all secret anyhow"_] and identify important assets
 - save cost of security infrastructure & life cycle as we only have to guard and review a fraction of assets
 - open up to a potential of 7.000.000.000 collaborators - how big is your company ;-)
-- benefit from for countless https://github.com/velikanov/opensource-candies[free services for open source software] and open knowledge
+- benefit from for countless https://github.com/velikanov/opensource-candies[free services for open source software] and https://en.wikipedia.org/wiki/Open_knowledge[open knowledge]
 
 == Questions & Answers
 *Q:* Won't people be distracted and confused by all this unnecessary information? Won't absorbing it decrease productivity? +
