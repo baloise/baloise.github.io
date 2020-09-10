@@ -1,1 +1,9 @@
 = Slow Builds Fail
+
+What is slow / what is fast?
+ - slow fast is 2 weeks
+ - normal fast nightly
+ - fix errors minutes
+ 
+What is the build
+  - whole deployment pipeline from git-repository to production
