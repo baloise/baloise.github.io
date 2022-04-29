@@ -1,8 +1,6 @@
 ---
-layout: baldes
+layout: baloisedesign
 ---
-
-{% include navbar.md %}
 
 # Mission Statement
 

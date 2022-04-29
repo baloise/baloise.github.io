@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="baloise design system html example">
+
+    <link
+        rel="stylesheet"
+        href="/assets/css/balfonts.css"
+    />
+
+    <!--
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@baloise/design-system-fonts@10.10.8/lib/fonts.cdn.css"
+        />
+    -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@baloise/design-system-components@10.10.8/dist/design-system-components/design-system-components.css"
+    />
+    <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-components@10.10.8/dist/design-system-components/design-system-components.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-components@10.10.8/dist/design-system-components/design-system-components.js"
+    ></script>
+</head>
+
+<body>
+<bal-app background>
+
+    <bal-navbar>
+        <bal-navbar-brand>
+            <bal-icon name="logo" inverted size="large"></bal-icon>
+            <bal-text style="margin-left: 15px">Baloise Group</bal-text>
+        </bal-navbar-brand>
+        <bal-navbar-menu>
+            <bal-navbar-menu-start>
+                <a class="navbar-item"><bal-text>Jobs</bal-text></a>
+                <a class="navbar-item"><bal-text>About Us</bal-text></a>
+            </bal-navbar-menu-start>
+        </bal-navbar-menu>
+    </bal-navbar>
+
+    <main class="container">
+        {{content}}
+    </main>
+
+    <bal-footer>
+        <div class="container">
+            <bal-logo color="white"></bal-logo>
+            <p class="mt-2">Footer Content</p>
+        </div>
+    </bal-footer>
+
+</bal-app>
+</body>
+
+</html>
