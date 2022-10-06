@@ -1,5 +1,6 @@
 ---
 layout: baloisedesign
+title: Home
 ---
 
 # Mission Statement
