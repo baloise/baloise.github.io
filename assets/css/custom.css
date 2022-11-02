@@ -1,4 +1,11 @@
-.bal-gh-icon {
+.bal-gh-footer-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bal-gh-footer-icon {
+}
+.bal-gh-footer-image {
     width: 16px;
     height: 16px;
     display: inline-block;
