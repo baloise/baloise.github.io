@@ -1,4 +1,6 @@
 .bal-gh-icon {
-    width: 1.6rem;
-    max-height: 1.6rem;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding-right: 5px;
 }
