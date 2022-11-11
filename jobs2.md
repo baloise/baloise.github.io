@@ -1,8 +1,8 @@
 ---
 layout: baloisedesign
 ---
-<bal-heading level="h1">Jobs</bal-heading>
 
+<bal-heading level="h1">Jobs</bal-heading>
 
 {% include youtubePlayer.html id="Qf4vKzQXaQ4" %}
 
