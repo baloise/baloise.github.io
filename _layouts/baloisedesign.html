@@ -20,20 +20,20 @@
     <!--
         <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-fonts@10.24.9/lib/fonts.cdn.css"
+            href="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-fonts@11.0.12/lib/fonts.cdn.css"
         />
     -->
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@10.24.9/dist/design-system-next-components/design-system-next-components.css"
+        href="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@11.0.12/dist/design-system-next-components/design-system-next-components.css"
     />
     <script
         type="module"
-        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@10.24.9/dist/design-system-next-components/design-system-next-components.esm.js"
+        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@11.0.12/dist/design-system-next-components/design-system-next-components.esm.js"
     ></script>
     <script
         nomodule
-        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@10.24.9/dist/design-system-next-components/design-system-next-components.js"
+        src="https://cdn.jsdelivr.net/npm/@baloise/design-system-next-components@11.0.12/dist/design-system-next-components/design-system-next-components.js"
     ></script>
 </head>
 
@@ -46,10 +46,13 @@
             <bal-text style="margin-left: 15px">Baloise Group</bal-text>
         </bal-navbar-brand>
         <bal-navbar-menu>
-            <bal-navbar-menu-start>
-                <a class="navbar-item" href="jobs2.html"><bal-text>Jobs</bal-text></a>
+            <bal-navbar-menu-end>
+                <bal-tabs interface="navbar" inverted>
+                    <bal-tab-item label="Jobs"><a class="navbar-item" href="jobs2.html"><bal-text>Jobs</bal-text></a></bal-tab-item>
+                </bal-tabs>
+
                 <a class="navbar-item" href="about2.html"><bal-text>About Us</bal-text></a>
-            </bal-navbar-menu-start>
+            </bal-navbar-menu-end>
         </bal-navbar-menu>
     </bal-navbar>
 
