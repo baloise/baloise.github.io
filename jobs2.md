@@ -6,4 +6,6 @@ title: jobs
 
 {% include youtubePlayer.html id="Qf4vKzQXaQ4" %}
 
-## Interested? [Come and join us!](https://www.baloise.com/en/jobs.html)
+<bal-heading level="h3" space="bottom">Interested?</bal-heading>
+<bal-text><a href="https://www.baloise.com/en/jobs.html">Come and join us!</a></bal-text>
+
