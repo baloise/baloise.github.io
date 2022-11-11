@@ -1,7 +1,8 @@
 ---
 layout: baloisedesign
-title: about us
 ---
+
+<bal-heading level="h1">About Us</bal-heading>
 
 <bal-heading level="h3" space="bottom">Address</bal-heading>
 <bal-text>
